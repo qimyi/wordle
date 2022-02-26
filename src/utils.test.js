@@ -46,6 +46,6 @@ describe('utils', () => {
 
   it('should print result with colour code', () => {
     expect(printResult('amber', [1, 0, 0, 0, 0], [0, 0, 0, 1, 0]))
-      .toBe('\x1b[32mA\x1b[37mM\x1b[37mB\x1b[33mE\x1b[37mR')
+      .toBe('\x1b[32mA\x1b[37mM\x1b[37mB\x1b[33mE\x1b[37mR\x1b[0m')
   });
 });

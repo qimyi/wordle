@@ -58,6 +58,7 @@ const printResult = (guess, positionScore, existenceScore) => {
       }
       return printWhite(gc)
     })
+  resultStringArray.push('\x1b[0m')
 
   const resultString = resultStringArray.join('')
 
