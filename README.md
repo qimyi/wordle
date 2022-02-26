@@ -1,5 +1,5 @@
 # Wordle
-Gaming in the console? I gotchu fam! 
+Gaming in the command line? I gotchu fam! 
 
 # Play
 ```
