@@ -47,6 +47,10 @@ const printWhite = (s) => {
   return '\x1b[37m' + s
 }
 
+const printRed = (s) => {
+  return '\x1b[31m' + s
+}
+
 const printResult = (guess, positionScore, existenceScore) => {
 
   const resultStringArray = guess.toUpperCase().split('')
@@ -73,5 +77,7 @@ module.exports = {
   scoreExist,
   printGreen,
   printYellow,
+  printWhite,
+  printRed,
   printResult
 }
